@@ -44,7 +44,8 @@ set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
 
 "colors
-colorscheme vividchalk
-
-"file browsing
-wildmode=list:longest
+"colorscheme vividchalk
+"
+filetype on
+filetype plugin on
+filetype indent on
