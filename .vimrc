@@ -44,8 +44,17 @@ set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
 
 "colors
-"colorscheme vividchalk
+colorscheme vividchalk
 "
 filetype on
 filetype plugin on
 filetype indent on
+
+" nerd tree shortcut
+map <leader>n :NERDTree<CR>
+
+" conqueterm shortcut
+map <leader>sh :ConqueTerm bash<CR>
+
+
+
